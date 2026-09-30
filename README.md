@@ -12,18 +12,16 @@ A collection of reusable skills for coding agents. Each skill is a folder with a
 
 Skills are installed with the [`skills`](https://www.npmjs.com/package/skills) CLI. No global install is needed; run it through `npx`.
 
-Replace `<owner>/skills` with this repository's GitHub path.
-
 ### Install all skills
 
 ```sh
-npx skills add <owner>/skills
+npx skills add jorqensen/skills
 ```
 
 ### Install a single skill
 
 ```sh
-npx skills add <owner>/skills --skill conventional-commits
+npx skills add jorqensen/skills --skill conventional-commits
 ```
 
 ## License
